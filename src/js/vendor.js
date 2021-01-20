@@ -8,3 +8,4 @@ window.$ = $;
 window.jQuery = $;
 
 require('ninelines-ua-parser');
+

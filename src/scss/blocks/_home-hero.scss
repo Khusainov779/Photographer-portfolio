@@ -1,0 +1,23 @@
+
+.home-hero__container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	padding-top: 300px;
+}
+.hero__slogan {
+	font-family: $font-family-quicksandRegular;
+	text-transform: uppercase;
+	font-size: 24px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+}
+.hero__title {
+	font-family: $font-family-quicksandSemiBold;
+	text-transform: capitalize;
+	font-size: 72px;
+	text-align: center;
+	color: #fff;
+	padding: 0 198px;
+}

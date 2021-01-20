@@ -1,0 +1,42 @@
+.about-container {
+	padding: 120px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.greeting-text{
+	font-family: $font-family-quicksandMedium;
+	font-size: 48px;
+	margin: 36px 0;
+}
+.me-image {
+	border-radius: 50%;
+}
+.about__aside {
+	width: 50%;
+}
+.about__aside--aboutme {
+	font-family: $font-family-quicksandLight;
+	font-size: 18px;
+	text-align: justify;
+	line-height: 24px;
+}
+.about__aside--inspiration {
+	font-family: $font-family-quicksandRegular;
+	font-size: 18px;
+	text-align: justify;
+}
+.about__aside--experience {
+	display: flex;
+	justify-content: space-around;
+}
+.personal__experience--number {
+	font-family: $font-family-quicksandBold;
+	font-size: 48px;
+	margin: 10px;
+	text-align: center;
+}
+.personal__experience--text {
+	font-family: $font-family-quicksandBold;
+	font-size: 18px;
+	color: #2a9df4;
+}
