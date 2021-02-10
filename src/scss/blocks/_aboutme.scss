@@ -1,3 +1,6 @@
+.about {
+	overflow: hidden;
+}
 .about-container {
 	padding: 120px 0;
 	display: flex;
@@ -11,8 +14,23 @@
 .me-image {
 	border-radius: 50%;
 }
+.about__section{
+	opacity: 0;
+}
+.about__section--is-visible{
+	opacity: 1;
+	animation: bounceInLeft;
+	animation-duration: 1s;
+}
+
 .about__aside {
 	width: 50%;
+	opacity: 0;
+}
+.about__aside--is-visible {
+	opacity: 1;
+	animation: bounceInRight;
+	animation-duration: 1s;
 }
 .about__aside--aboutme {
 	font-family: $font-family-quicksandLight;

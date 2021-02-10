@@ -4,6 +4,7 @@
 	flex-wrap: wrap;
 	margin: auto;
 	padding-top: 300px;
+	overflow: hidden;
 }
 .hero__slogan {
 	font-family: $font-family-quicksandRegular;
@@ -12,6 +13,8 @@
 	width: 100%;
 	text-align: center;
 	color: #fff;
+	animation: bounceInLeft;
+	animation-duration: 2s;
 }
 .hero__title {
 	font-family: $font-family-quicksandSemiBold;
@@ -20,4 +23,7 @@
 	text-align: center;
 	color: #fff;
 	padding: 0 198px;
+	animation: bounceInRight;
+	animation-duration: 2s;
+	overflow: hidden;
 }

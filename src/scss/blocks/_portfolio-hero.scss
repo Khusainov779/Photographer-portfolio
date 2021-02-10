@@ -1,0 +1,81 @@
+.portfolio-hero__list {
+	min-height: 100vh;
+	display: flex;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	font-family: $font-family-aquire;
+}
+.portfolio-hero__list--item {
+	color: white;
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition:
+        font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+        flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+        background 0.2s;
+    background-position: center;
+}
+
+.portfolio-hero__list--item.open {
+	flex: 4;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.portfolio-hero__list--item > *{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex:1 0 auto;
+    margin: 0;
+    transition: transform 0.5s;
+}
+
+.portfolio-hero__list--item > *:first-child{
+    transform: translateY(-100%);
+}
+.portfolio-hero__list--item.open-active > *:first-child{
+    transform: translateY(0%);
+}
+.portfolio-hero__list--item > *:last-child{
+    transform: translateY(100%);
+}
+.portfolio-hero__list--item.open-active > *:last-child{
+    transform: translateY(0);
+}
+.portfolio-hero__list--item p{
+	font-size: 2.5em;
+
+}
+.portfolio-hero__list--item p:nth-child(2) {
+	font-size: 2.5em;
+}
+.image-1{
+    background: url(../../images/male/male-7.jpg) center/cover;
+	background-color: rgba(0,0,0,0);
+    background-blend-mode: multiply;
+}
+.image-2{
+    background: url(../../images/street/street-5.jpg) center/cover;
+    background-color: rgba(0,0,0,0);
+    background-blend-mode: multiply;
+}
+.image-3{
+    background: url(../../images/female/female-2.jpg) center/cover;
+    background-color: rgba(0,0,0,0);
+    background-blend-mode: multiply;
+}
+.image-4{
+    background: url(../../images/street/street-3.jpg) center/cover;
+    background-color: rgba(0,0,0,0);
+    background-blend-mode: multiply;
+}
+.image-5{
+    background: url(../../images/wedding/wedding-3.jpg) center/cover;
+    background-color: rgba(0,0,0,0);
+    background-blend-mode: multiply;
+}
