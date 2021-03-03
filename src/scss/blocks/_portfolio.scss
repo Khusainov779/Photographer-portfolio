@@ -1,0 +1,23 @@
+.portfolio {
+	padding-bottom: 24px;
+}
+.portfolio__filter-list {
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%;
+	justify-content: space-between;
+}
+.portfolio__list {
+	column-count: 3;
+}
+.portfolio__list--item {
+	margin-bottom: 16px;
+}
+.portfolio__list--item > a > img {
+	width: 100%;
+}
+.portfolio__filter-list > .portfolio__filter-list--btn > .active {
+	background: #03a9f4;
+	color: #fff;
+}
+

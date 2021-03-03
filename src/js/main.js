@@ -1,6 +1,7 @@
 import './vendor';
 import './helpers';
 import 'vegas';
+import '@fancyapps/fancybox';
 
 $('.home-hero').vegas({
 	transition: 'fade',
@@ -22,3 +23,4 @@ $('.home-hero').vegas({
 		{src: '../images/face-10.jpg'},
 	],
 });
+
