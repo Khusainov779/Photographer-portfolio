@@ -9,18 +9,18 @@ window.jQuery = $;
 
 require('ninelines-ua-parser');
 
-$(document).ready(() => {
-	// eslint-disable-next-line func-names
-	$('.filter-btn').click(function () {
-		const value = $(this).attr('data-filter');
-		if (value === 'All') {
-			$('.portfolio__list--item').show('1000');
-		} else {
-			$('.portfolio__list--item').not(`.${value}`).hide('1000');
-			$('.portfolio__list--item').filter(`.${value}`).show('1000');
-		}
-	});
-});
+// $(document).ready(() => {
+// 	// eslint-disable-next-line func-names
+// 	$('.filter-btn').click(function () {
+// 		const value = $(this).attr('data-filter');
+// 		if (value === 'All') {
+// 			$('.portfolio__list--item').show('1000');
+// 		} else {
+// 			$('.portfolio__list--item').not(`.${value}`).hide('1000');
+// 			$('.portfolio__list--item').filter(`.${value}`).show('1000');
+// 		}
+// 	});
+// });
 
 $(document).ready(() => {
 	$(window).scroll(() => {
