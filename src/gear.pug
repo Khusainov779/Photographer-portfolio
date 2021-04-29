@@ -1,0 +1,16 @@
+extends pug/base
+
+prepend vars
+	title INFINITY
+
+append vars
+	//-
+
+	- meta.description = 'Photographer`s portfolio from violet Photography studio'
+	- meta.keywords = 'Photographer, photography, violet, art, wedding photography, street photography, nature photography, beauty'
+	- meta.appleMobileWebAppTitle = 'Violet'
+
+block content
+	//-
+	include pug/blocks/_header
+	include pug/blocks/_footer
